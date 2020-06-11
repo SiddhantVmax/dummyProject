@@ -36,26 +36,12 @@
 			remoteGlobalIDString = 1D6831EC24914DBB007B0FAE;
 			remoteInfo = Pracs;
 		};
-		1D6832A424914E35007B0FAE /* PBXContainerItemProxy */ = {
+		1DBA515424922EC400051318 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1D68329E24914E33007B0FAE /* sdkSkd.xcodeproj */;
+			containerPortal = 1DBA515024922EC300051318 /* sdkSDK.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 1D68326924914E31007B0FAE;
-			remoteInfo = sdkSkd;
-		};
-		1D6832A624914E35007B0FAE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1D68329E24914E33007B0FAE /* sdkSkd.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1D68328124914E33007B0FAE;
-			remoteInfo = sdkSkdTests;
-		};
-		1D6832A824914E35007B0FAE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1D68329E24914E33007B0FAE /* sdkSkd.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1D68328C24914E33007B0FAE;
-			remoteInfo = sdkSkdUITests;
+			remoteGlobalIDString = 1DBA514524922EC300051318;
+			remoteInfo = sdkSDK;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -76,11 +62,11 @@
 		1D68321024914DC2007B0FAE /* PracsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D68321424914DC2007B0FAE /* PracsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PracsUITests.m; sourceTree = "<group>"; };
 		1D68321624914DC2007B0FAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1D68329E24914E33007B0FAE /* sdkSkd.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = sdkSkd.xcodeproj; path = sdkSkd/sdkSkd.xcodeproj; sourceTree = "<group>"; };
 		1D6832AB24914E61007B0FAE /* Pracs-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pracs-Bridging-Header.h"; sourceTree = "<group>"; };
 		1D6832AC24914E62007B0FAE /* DummyClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyClass.swift; sourceTree = "<group>"; };
 		1D6832AF2491504E007B0FAE /* Scolidion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Scolidion.h; sourceTree = "<group>"; };
 		1D6832B02491504E007B0FAE /* Scolidion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Scolidion.m; sourceTree = "<group>"; };
+		1DBA515024922EC300051318 /* sdkSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = sdkSDK.xcodeproj; path = sdkSDK/sdkSDK.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +97,7 @@
 		1D6831E424914DBB007B0FAE = {
 			isa = PBXGroup;
 			children = (
-				1D68329E24914E33007B0FAE /* sdkSkd.xcodeproj */,
+				1DBA515024922EC300051318 /* sdkSDK.xcodeproj */,
 				1D6831EF24914DBB007B0FAE /* Pracs */,
 				1D68320824914DC2007B0FAE /* PracsTests */,
 				1D68321324914DC2007B0FAE /* PracsUITests */,
@@ -166,16 +152,6 @@
 			path = PracsUITests;
 			sourceTree = "<group>";
 		};
-		1D68329F24914E33007B0FAE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1D6832A524914E35007B0FAE /* sdkSkd.app */,
-				1D6832A724914E35007B0FAE /* sdkSkdTests.xctest */,
-				1D6832A924914E35007B0FAE /* sdkSkdUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		1D6832AA24914E4B007B0FAE /* dummy */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +159,14 @@
 				1D6832AB24914E61007B0FAE /* Pracs-Bridging-Header.h */,
 			);
 			path = dummy;
+			sourceTree = "<group>";
+		};
+		1DBA515124922EC300051318 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DBA515524922EC400051318 /* sdkSDK.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,8 +261,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 1D68329F24914E33007B0FAE /* Products */;
-					ProjectRef = 1D68329E24914E33007B0FAE /* sdkSkd.xcodeproj */;
+					ProductGroup = 1DBA515124922EC300051318 /* Products */;
+					ProjectRef = 1DBA515024922EC300051318 /* sdkSDK.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -291,25 +275,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		1D6832A524914E35007B0FAE /* sdkSkd.app */ = {
+		1DBA515524922EC400051318 /* sdkSDK.framework */ = {
 			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = sdkSkd.app;
-			remoteRef = 1D6832A424914E35007B0FAE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		1D6832A724914E35007B0FAE /* sdkSkdTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = sdkSkdTests.xctest;
-			remoteRef = 1D6832A624914E35007B0FAE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		1D6832A924914E35007B0FAE /* sdkSkdUITests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = sdkSkdUITests.xctest;
-			remoteRef = 1D6832A824914E35007B0FAE /* PBXContainerItemProxy */;
+			fileType = wrapper.framework;
+			path = sdkSDK.framework;
+			remoteRef = 1DBA515424922EC400051318 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
